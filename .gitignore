@@ -42,3 +42,7 @@ next-env.d.ts
 
 # local tool clone (third-party repo, not part of this project)
 /ponytail
+
+# editor-local tooling
+/.cursor
+.agent

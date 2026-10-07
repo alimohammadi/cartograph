@@ -25,7 +25,7 @@ export function ThemeControl({ value }: { value: Theme }) {
       <select
         value={value}
         onChange={(e) => setTheme(e.target.value as Theme)}
-        className="h-6 cursor-pointer rounded border border-[var(--border)] bg-[var(--surface)] px-1.5 font-sans text-[11px] text-[var(--foreground)]"
+        className="h-7 cursor-pointer rounded-sm border border-[var(--border)] bg-[var(--background)] px-1.5 font-mono text-[11px] text-[var(--foreground)] hover:border-[var(--muted)]"
         aria-label="Theme"
       >
         {options.map((option) => (
