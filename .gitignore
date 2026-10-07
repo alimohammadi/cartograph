@@ -45,4 +45,4 @@ next-env.d.ts
 
 # editor-local tooling
 /.cursor
-.agent
+.agents
